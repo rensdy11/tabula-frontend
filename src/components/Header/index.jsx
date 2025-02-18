@@ -1,10 +1,14 @@
 import React from 'react';
-import styles from './Header.module.css';
+import NavBar from '../NavBar';
+import user from '../../assets/user.png'
+import { Link } from "react-router-dom"
 
-const Header = () => {
+function Header(){
   return (
-    <header className={styles.header}>
-      <h1>Welcome to My App</h1>
+    <header className="bg-gray-800 text-white p-4">
+      <img src={user} alt="user" />
+      <input type="search" placeholder='Search...'/>
+      <NavBar />
     </header>
   );
 };
