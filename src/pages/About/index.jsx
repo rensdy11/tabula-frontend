@@ -1,11 +1,9 @@
-import React from 'react';
-import styles from './About.module.css';
-
-const About = () => (
-  <div className={styles.About}>
-    About Component
-  </div>
-);
-
+function About() {
+  return (
+    <div className="text-center p-10">
+      <h1 className="text-4xl font-bold">About Us</h1>
+    </div>
+  );
+};
 
 export default About;

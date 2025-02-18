@@ -1,15 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './Home.module.css';
-
-const Home = () => (
-  <div className={styles.Home}>
-    Home Component
-  </div>
-);
-
-Home.propTypes = {};
-
-Home.defaultProps = {};
+function Home (){
+  return (
+    <div className="text-center p-10">
+      <h1 className="text-4xl font-bold">Tabula</h1>
+      <p className="text-gray-600">This is the home page content.</p>
+    </div>
+  );
+};
 
 export default Home;
