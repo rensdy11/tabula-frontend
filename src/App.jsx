@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer"
 import About from "./pages/About";
 import SignUp from "./components/SignUp";
+import LocationDetails from "./pages/LocationDetails";
 
 
 function Layout() {

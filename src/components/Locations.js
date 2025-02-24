@@ -1,0 +1,60 @@
+const locations = [
+    {
+      id: 1,
+      title: "Grand Place",
+      image: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Brussels_-_Grand_Place.jpg",
+      description: "Grand Place is the central square of Brussels and one of the most beautiful places in Europe.",
+      address: "Grote Markt, 1000 Brussels, Belgium",
+      latlng: [50.8503, 4.3517], 
+    },
+    {
+      id: 2,
+      title: "Manneken Pis",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bruxelles_Manneken_Pis.jpg/800px-Bruxelles_Manneken_Pis.jpg",
+      description: "A small bronze statue of a boy urinating into a fountain. It is one of the city's most famous symbols.",
+      address: "Rue de l'Étuve 46, 1000 Brussels, Belgium",
+      latlng: [50.8467, 4.3499],
+    },
+    {
+      id: 3,
+      title: "Bourse de Bruxelles",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bourse_de_Bruxelles_2012-10-21_%282%29.jpg",
+      description: "The Brussels Stock Exchange is an impressive building constructed in 1873.",
+      address: "Place de la Bourse, 1000 Brussels, Belgium",
+      latlng: [50.8449, 4.3495],
+    },
+    {
+      id: 4,
+      title: "Saint-Hubert Royal Galleries",
+      image: "https://upload.wikimedia.org/wikipedia/commons/5/56/Galeries_Royales_Saint-Hubert.jpg",
+      description: "One of the oldest and most luxurious shopping arcades in Europe.",
+      address: "Galerie du Roi 5, 1000 Brussels, Belgium",
+      latlng: [50.8505, 4.3488],
+    },
+    {
+      id: 5,
+      title: "Brussels Park",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/39/Parc_de_Bruxelles_-_Brussels_Park.jpg",
+      description: "The largest public park in the center of Brussels, next to the Royal Palace.",
+      address: "Rue Royale, 1000 Brussels, Belgium",
+      latlng: [50.8476, 4.3572],
+    },
+    {
+      id: 6,
+      title: "Cathedral of St. Michael and St. Gudula",
+      image: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Cath%C3%A9drale_Saint-Michel_de_Bruxelles_07.jpg",
+      description: "One of the most important cathedrals in Belgium, with a history spanning centuries.",
+      address: "Place Sainte-Gudule, 1000 Brussels, Belgium",
+      latlng: [50.8523, 4.3525],
+    },
+    {
+      id: 7,
+      title: "Place Royale",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/41/Place_Royale_Brussels_Belgium.jpg",
+      description: "One of the most elegant squares in Brussels, filled with historical buildings and museums.",
+      address: "Place Royale, 1000 Brussels, Belgium",
+      latlng: [50.8463, 4.3517],
+    },
+  ];
+  
+  export default locations;
