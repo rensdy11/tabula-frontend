@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Outlet } from "react-router-dom";
-import './App.css'
 import Home from './pages/Home'
 import Header from "./components/Header";
 import Footer from "./components/Footer"
@@ -26,7 +25,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="signUp" element={<SignUp/>}/> 
+        <Route path="signUp" element={<SignUp/>}/>        
       </Route>
     </Routes>
   );
