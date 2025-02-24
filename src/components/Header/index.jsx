@@ -5,12 +5,13 @@ import { Link } from "react-router-dom"
 
 function Header(){
   return (
-    <header className="bg-gray-800 text-white p-4">
-      <img src={user} alt="user" />
-      <input type="search" placeholder='Search...'/>
+    <header className="bg-yellow-900 text-white p-6 ">
+      <img src={user} alt="user"className="w-20 h-20"/>
+      <input type="search" placeholder='Search...' />
       <NavBar />
     </header>
   );
 };
 
 export default Header;
+
