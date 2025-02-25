@@ -3,7 +3,6 @@ import "leaflet/dist/leaflet.css";
 import locations from "../Locations";
 import { Link } from "react-router-dom";
 
-
 const MapComponent = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
